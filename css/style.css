@@ -101,6 +101,7 @@ body {
 	font-family: "Raleway", sans-serif;
 	text-decoration: none;
 	margin-right: 24px;
+
 }
 
 .logo-studio {
@@ -286,7 +287,7 @@ body {
 }
 
 .main-section {
-	background-color: #2e2f42;
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/backgraund-onesection.jpg);
 	padding-top: 188px;
 	padding-bottom: 188px;
 }
@@ -329,7 +330,10 @@ body {
    |============================
  */
 
-.main-box {}
+.main-box {
+	padding-top: 120px;
+	padding-bottom: 0;
+}
 
 .main-caption {
 	font-style: normal;
@@ -341,7 +345,6 @@ body {
 	text-transform: capitalize;
 	margin-bottom: 8px;
 	text-align: center;
-
 }
 
 .section-doing {
@@ -357,6 +360,7 @@ body {
 .main-txt {
 	background-color: #FFFFFF;
 	text-align: center;
+	letter-spacing: 0.02em;
 }
 
 
@@ -406,6 +410,7 @@ body {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #F4F4FD;
+	width: 264px;
 }
 
 .logo-studio-end {
@@ -420,8 +425,20 @@ body {
 }
 
 .header-logo-end {
-	display: inline-block;
-	margin-bottom: 16px;
+	color: var(--main-btn-color);
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	line-height: 1.17;
+	font-size: 18px;
+	font-weight: 800;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	font-family: "Raleway", sans-serif;
+	text-decoration: none;
+	margin-right: 24px;
+	margin-bottom: 17.5px;
 }
 
 .my-team {
@@ -527,10 +544,14 @@ body {
 }
 
 
-.main-portfolia {}
+.main-portfolia {
+	padding-bottom: 120px;
+	padding-top: 0;
+
+}
 
 .section-portfolio {
-	padding: 96px 0 120px
+	padding: 96px 0 120px;
 }
 
 
@@ -616,7 +637,7 @@ body {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: #4D5AE5;
-
+	margin-bottom: 17.5px;
 }
 
 .logo-end {
@@ -642,5 +663,5 @@ body {
 	line-height: 24px;
 	letter-spacing: 0.02em;
 	color: #F4F4FD;
-
+	width: 264px;
 }
