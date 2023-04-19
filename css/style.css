@@ -158,7 +158,8 @@ body {
 	background-color: #404BBF;
 	border: 1px solid transparent;
 }
-.library-portfolio:hover{
+
+.library-portfolio:hover {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 
 }
@@ -344,6 +345,23 @@ body {
    |============================
  */
 
+.section-two{
+	color: #2E2F42;;
+}
+.svg-box{
+background-color: #F4F4FD;;
+
+}
+.section-box {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
 .main-box {
 	padding: 120px 0;
 
@@ -358,7 +376,6 @@ body {
 	color: var(--main-txt-cl);
 	text-transform: capitalize;
 	margin-bottom: 8px;
-	text-align: center;
 }
 
 .section-doing {
@@ -373,8 +390,8 @@ body {
 
 .main-txt {
 	background-color: #FFFFFF;
-	text-align: center;
 	letter-spacing: 0.02em;
+	width: 264px;
 }
 
 
@@ -400,6 +417,28 @@ body {
 	display: flex;
 	gap: 24px;
 
+}
+
+.end-txt {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.end-caption {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #2E2F42;
 }
 
 .section-the-end {
