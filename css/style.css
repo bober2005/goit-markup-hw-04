@@ -147,6 +147,12 @@ body {
 
 }
 
+.section-portfolio-link:hover {
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+	
+
+}
+
 .address-navigation:hover {
 	color: #404bbf;
 
@@ -156,6 +162,7 @@ body {
 .navigation-button:hover {
 	color: #FFFFFF;
 	background-color: #404BBF;
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 	border: 1px solid transparent;
 }
 
@@ -177,6 +184,17 @@ body {
 	color: #404bbf;
 
 }
+
+
+
+/* footer */
+
+.footer-link:hover {
+	background-color: #31d0aa;
+	;
+
+}
+
 
 
 /**
@@ -219,11 +237,18 @@ body {
 	color: #404bbf;
 
 }
+.section-portfolio-link:focus {
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+	
+
+}
+
 
 .navigation-button:focus {
 	color: #FFFFFF;
 	background-color: #404BBF;
 	border: 1px solid transparent;
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* social-network */
@@ -236,6 +261,16 @@ body {
 	border-color: #404bbf;
 	color: #404bbf;
 }
+
+/* footer  */
+.footer-link:focus {
+	background-color: #31d0aa;
+	;
+
+}
+
+
+
 
 /**
 
@@ -642,6 +677,8 @@ body {
 	color: #FFFFFF;
 
 
+	margin-bottom: 16px;
+
 
 
 }
@@ -658,6 +695,16 @@ body {
 
 }
 
+.footer-container {
+	display: flex;
+
+}
+
+.paragraph-link-footer {
+	margin-right: 120px;
+
+}
+
 .footer-link {
 	width: 100%;
 	height: 100%;
@@ -665,14 +712,15 @@ body {
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
-	text-align: center;
+	align-items: center;
 
 }
 
-.svg-footer{
-	color:#f4f4fd;
+.svg-footer {
+	fill: #f4f4fd;
 
 }
+
 /**
   |============================
   |  Portfolia
@@ -708,6 +756,8 @@ body {
 	color: #2e2f42;
 
 }
+
+
 
 .portfolio-button {
 	display: flex;
@@ -778,6 +828,11 @@ body {
 	padding: 96px 0 120px;
 }
 
+
+.section-portfolio-link {
+	display: block;
+
+}
 
 /* button */
 
