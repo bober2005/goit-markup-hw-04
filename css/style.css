@@ -167,14 +167,14 @@ body {
 
 /* social-network */
 
-.social-network-link:hover{
-background-color:  #404bbf;
+.social-network-link:hover {
+	background-color: #404bbf;
 }
 
 /* customers */
-.customers-link:hover{
-border-color: #404bbf;
-color: #404bbf; 
+.customers-link:hover {
+	border-color: #404bbf;
+	color: #404bbf;
 
 }
 
@@ -227,15 +227,15 @@ color: #404bbf;
 }
 
 /* social-network */
-.social-network-link:focus{
-	background-color:  #404bbf;
-	}
+.social-network-link:focus {
+	background-color: #404bbf;
+}
 
 /* customers */
-.customers-link:focus{
+.customers-link:focus {
 	border-color: #404bbf;
-	color: #404bbf; 
-	}
+	color: #404bbf;
+}
 
 /**
 
@@ -484,6 +484,7 @@ color: #404bbf;
 	background-color: #FFFFFF;
 	width: calc((100% - 72px) / 4);
 	border-radius: 0px 0px 4px 4px;
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .social-network {}
@@ -566,7 +567,7 @@ color: #404bbf;
 
 
 .my-team {
-	padding: 32px 16px;
+	padding: 32px 0;
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -574,7 +575,7 @@ color: #404bbf;
 
 .customers {
 	padding-top: 120px;
-	padding-bottom:120px ;
+	padding-bottom: 120px;
 }
 
 .customers-box {}
@@ -605,7 +606,7 @@ color: #404bbf;
 
 .customers-iteam {
 	width: calc((100% - 120px) / 6);
-	height:88px;
+	height: 88px;
 
 }
 
