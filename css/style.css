@@ -683,11 +683,6 @@ body {
 
 }
 
-.social-network-list {
-	display: flex;
-	gap: 16px;
-
-}
 
 .social-network-iteam {
 	width: 40px;
