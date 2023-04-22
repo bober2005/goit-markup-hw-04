@@ -527,7 +527,7 @@ body {
 .social-network-list {
 	display: flex;
 	justify-content: center;
-	gap: 16px;
+	gap: 24px;
 }
 
 .social-network-iteam {}
@@ -664,7 +664,14 @@ body {
 
 
 
-.social-network-footer {}
+.social-network-footer {
+
+}
+.social-network-list-footer{
+gap: 16px;
+display: flex;
+
+}
 
 .social-network-paragraph {
 	font-family: 'Roboto' sans-serif;
@@ -717,9 +724,8 @@ body {
 }
 
 .social-network-footer {
-	display: flex;
 	justify-content: center;
-	gap: 24px;
+	
 }
 
 
