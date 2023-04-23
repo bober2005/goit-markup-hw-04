@@ -828,15 +828,16 @@ display: flex;
 
 
 .main-portfolia {
-	padding-bottom: 120px;
-	padding-top: 0;
-
 }
 
 .section-portfolio {
 	padding: 96px 0 120px;
 }
 
+.section-img{
+	margin-bottom: 120px;
+	margin-top: 0;
+}
 
 .section-portfolio-link {
 	display: block;
